@@ -7,8 +7,4 @@ class MachinesController < ApplicationController
     @machine = Machine.find(params[:id])
   end
 
-  # private
-  # def machine_params
-  #   params.require(:machine).permit(:location, :own)
-  # end
 end
